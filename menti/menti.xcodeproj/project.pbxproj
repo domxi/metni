@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40A22EF2A72DF7700FB550B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22EE2A72DF7700FB550B /* ListViewModel.swift */; };
+		B40A22F12A72DFFD00FB550B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22F02A72DFFD00FB550B /* ItemModel.swift */; };
+		B40A22F32A72E02000FB550B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22F22A72E02000FB550B /* ListView.swift */; };
+		B40A22F52A72E03600FB550B /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22F42A72E03600FB550B /* ListRowView.swift */; };
+		B40A22F72A72E06F00FB550B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A22F62A72E06F00FB550B /* AddView.swift */; };
+		B4295A8A2A6EFB5300696DCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A892A6EFB5300696DCD /* HomeView.swift */; };
+		B4295A8C2A6EFB9D00696DCD /* MedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A8B2A6EFB9D00696DCD /* MedView.swift */; };
+		B4295A8E2A6EFBB900696DCD /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A8D2A6EFBB900696DCD /* ResourcesView.swift */; };
+		B4295A902A6EFBDE00696DCD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A8F2A6EFBDE00696DCD /* ProfileView.swift */; };
+		B4295A922A702B3500696DCD /* countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4295A912A702B3500696DCD /* countries.swift */; };
 		B42E33032A659FDA004A30DE /* mentiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E33022A659FDA004A30DE /* mentiApp.swift */; };
 		B42E33052A659FDA004A30DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E33042A659FDA004A30DE /* ContentView.swift */; };
 		B42E33072A659FDC004A30DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42E33062A659FDC004A30DE /* Assets.xcassets */; };
@@ -14,7 +24,7 @@
 		B42E33142A659FDC004A30DE /* mentiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E33132A659FDC004A30DE /* mentiTests.swift */; };
 		B42E331E2A659FDC004A30DE /* mentiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E331D2A659FDC004A30DE /* mentiUITests.swift */; };
 		B42E33202A659FDC004A30DE /* mentiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E331F2A659FDC004A30DE /* mentiUITestsLaunchTests.swift */; };
-		B42E332D2A65A0A8004A30DE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42E332C2A65A0A8004A30DE /* Storyboard.storyboard */; };
+		B458438C2A72F849000E48EB /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = B458438B2A72F849000E48EB /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B40A22EE2A72DF7700FB550B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		B40A22F02A72DFFD00FB550B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		B40A22F22A72E02000FB550B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B40A22F42A72E03600FB550B /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		B40A22F62A72E06F00FB550B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		B4295A442A6ECDB400696DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4295A892A6EFB5300696DCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B4295A8B2A6EFB9D00696DCD /* MedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedView.swift; sourceTree = "<group>"; };
+		B4295A8D2A6EFBB900696DCD /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		B4295A8F2A6EFBDE00696DCD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B4295A912A702B3500696DCD /* countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countries.swift; sourceTree = "<group>"; };
 		B42E32FF2A659FDA004A30DE /* menti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42E33022A659FDA004A30DE /* mentiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentiApp.swift; sourceTree = "<group>"; };
 		B42E33042A659FDA004A30DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +66,7 @@
 		B42E33192A659FDC004A30DE /* mentiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42E331D2A659FDC004A30DE /* mentiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentiUITests.swift; sourceTree = "<group>"; };
 		B42E331F2A659FDC004A30DE /* mentiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B42E332C2A65A0A8004A30DE /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B458438B2A72F849000E48EB /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B40A22EB2A72D32300FB550B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B40A22F22A72E02000FB550B /* ListView.swift */,
+				B40A22F42A72E03600FB550B /* ListRowView.swift */,
+				B40A22F62A72E06F00FB550B /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B40A22EC2A72D33200FB550B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B40A22EE2A72DF7700FB550B /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B40A22ED2A72DF3800FB550B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B40A22F02A72DFFD00FB550B /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B42E32F62A659FDA004A30DE = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +143,18 @@
 		B42E33012A659FDA004A30DE /* menti */ = {
 			isa = PBXGroup;
 			children = (
+				B40A22ED2A72DF3800FB550B /* Models */,
+				B40A22EC2A72D33200FB550B /* ViewModels */,
+				B40A22EB2A72D32300FB550B /* Views */,
+				B4295A442A6ECDB400696DCD /* Info.plist */,
 				B42E33022A659FDA004A30DE /* mentiApp.swift */,
 				B42E33042A659FDA004A30DE /* ContentView.swift */,
-				B42E332C2A65A0A8004A30DE /* Storyboard.storyboard */,
+				B4295A8B2A6EFB9D00696DCD /* MedView.swift */,
+				B4295A8D2A6EFBB900696DCD /* ResourcesView.swift */,
+				B4295A8F2A6EFBDE00696DCD /* ProfileView.swift */,
+				B4295A892A6EFB5300696DCD /* HomeView.swift */,
 				B42E33062A659FDC004A30DE /* Assets.xcassets */,
+				B458438B2A72F849000E48EB /* AppIcon.appiconset */,
 				B42E33082A659FDC004A30DE /* Preview Content */,
 			);
 			path = menti;
@@ -108,6 +163,7 @@
 		B42E33082A659FDC004A30DE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B4295A912A702B3500696DCD /* countries.swift */,
 				B42E33092A659FDC004A30DE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -235,8 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B42E330A2A659FDC004A30DE /* Preview Assets.xcassets in Resources */,
+				B458438C2A72F849000E48EB /* AppIcon.appiconset in Resources */,
 				B42E33072A659FDC004A30DE /* Assets.xcassets in Resources */,
-				B42E332D2A65A0A8004A30DE /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4295A8A2A6EFB5300696DCD /* HomeView.swift in Sources */,
+				B4295A8C2A6EFB9D00696DCD /* MedView.swift in Sources */,
+				B40A22F32A72E02000FB550B /* ListView.swift in Sources */,
 				B42E33052A659FDA004A30DE /* ContentView.swift in Sources */,
+				B40A22F12A72DFFD00FB550B /* ItemModel.swift in Sources */,
 				B42E33032A659FDA004A30DE /* mentiApp.swift in Sources */,
+				B4295A902A6EFBDE00696DCD /* ProfileView.swift in Sources */,
+				B40A22F52A72E03600FB550B /* ListRowView.swift in Sources */,
+				B40A22F72A72E06F00FB550B /* AddView.swift in Sources */,
+				B4295A8E2A6EFBB900696DCD /* ResourcesView.swift in Sources */,
+				B40A22EF2A72DF7700FB550B /* ListViewModel.swift in Sources */,
+				B4295A922A702B3500696DCD /* countries.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,16 +489,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"menti/Preview Content\"";
+				DEVELOPMENT_TEAM = WEM384F6RA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = menti/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,16 +521,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"menti/Preview Content\"";
+				DEVELOPMENT_TEAM = WEM384F6RA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = menti/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
